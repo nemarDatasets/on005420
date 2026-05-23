@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005420",
-  "source": "openneuro",
-  "source_id": "ds005420",
+  "pipeline_stage": "validated",
   "title": "Resting state EEG with closed eyes and open eyes in females from 60 to 80 years old",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Miriam de Jesús Sánchez Gama": {},
     "Luis Alberto Barradas Chacón": {},
@@ -12,14 +12,71 @@
     "Carlos Augusto Novo Olivas": {},
     "José María De La Roca Chiapas": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005420.v1.0.0",
       "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005420",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005420",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsReferencedBy"
     }
   ],
-  "pipeline_stage": "seeded"
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "390.0 MB (73 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".md",
+    ".tsv",
+    ".yml"
+  ],
+  "description": "This dataset comprises resting-state electroencephalography (EEG) recordings acquired from female participants aged 60-80 years under two conditions: eyes closed and eyes open. The dataset provides raw neurophysiological data suitable for investigating age-related changes in spontaneous brain electrical activity and the effects of visual input on cortical oscillations in older adults.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "aging"
+    },
+    {
+      "term": "eyes closed"
+    },
+    {
+      "term": "eyes open"
+    },
+    {
+      "term": "females"
+    },
+    {
+      "term": "spontaneous brain activity"
+    }
+  ],
+  "source_hash": "39b93e8147e2ae54ba91af189c2bbeb4ee125627b7fccb8397ffbc312f3bcc6e"
 }
